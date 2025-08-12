@@ -85,26 +85,12 @@ services:
       - /tmp/.X11-unix:/tmp/.X11-unix:rw
       - /run/user/1000/wayland-0:/tmp/wayland-1:rw
       - /etc/machine-id:/etc/machine-id:ro
+      - ${HOME}/.local/share/unity3d/Unity/Unity_lic.ulf:/workspace/Unity_lic.ulf
 
     working_dir: /workspace
 
     # Runtime configuration
     restart: unless-stopped
-
-    # Depends on backend for ROS communication
-    depends_on:
-      - cartgs_backend
-
-    command: >
-      bash -c "
-        echo 'Unity Viewer ready. Activating license if needed...' &&
-        if [ -f /workspace/lisence_activation.sh ]; then
-          chmod +x /workspace/lisence_activation.sh &&
-          /workspace/lisence_activation.sh
-        fi &&
-        echo 'Unity Viewer ready. Starting shell...' &&
-        /bin/bash
-      "
 
     stdin_open: true
     tty: true
