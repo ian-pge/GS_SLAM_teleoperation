@@ -1,7 +1,7 @@
 services:
   cartgs_backend:
     build:
-      context: ./cartgs_backend/.devcontainer
+      context: ./cartgs_gsslam_backend/.devcontainer
       dockerfile: Dockerfile
       args:
         USERNAME: zed
@@ -49,7 +49,7 @@ services:
 
   unity_viewer:
     build:
-      context: ./unity_viewer/.devcontainer
+      context: ./unity_interactive_viewer/.devcontainer
       dockerfile: Dockerfile
       args:
         USERNAME: zed
