@@ -1,0 +1,93 @@
+{
+  "configurations": [
+    {
+      "name": "CUDA C++: Attach",
+      "type": "cuda-gdb",
+      "request": "attach",
+      "program": "/home/ian/Unity/Hub/Editor/2022.3.9f1/Editor/Unity",
+      "initCommands": ["handle SIGPWR nostop noprint pass", "handle SIGXCPU nostop noprint pass", "handle SIG36 nostop noprint pass", "handle SIG37 nostop noprint pass"], 
+      "additionalSOLibSearchPath": "/home/ian/PhD/Unity/GaussianSplattingVRViewerUnity/GaussianSplattingVRViewer/Assets/GaussianSplattingPlugin/Plugins/",
+      // "environment": [
+      // {
+      //   "name": "LD_LIBRARY_PATH",
+      //   "value": "/home/ian/PhD/Unity/GaussianSplattingVRViewerUnity/GaussianSplattingVRViewer/Assets/GaussianSplattingPlugin/Plugins/"
+      // },
+      // ],
+      "processId": "${command:cuda.pickProcess}"
+    },
+    {
+      "name": "CUDA C++: Launch",
+      "type": "cuda-gdb",
+      "request": "launch",
+      "program": "/home/ian/Unity/Hub/Editor/2022.3.9f1/Editor/Unity",
+      "additionalSOLibSearchPath": "/home/ian/PhD/Unity/GaussianSplattingVRViewerUnity/GaussianSplattingVRViewer/Assets/GaussianSplattingPlugin/Plugins/",
+      "initCommands": ["handle SIGPWR nostop noprint pass", "handle SIGXCPU nostop noprint pass", "handle SIG36 nostop noprint pass", "handle SIG37 nostop noprint pass"], 
+      // "environment": [
+      // {
+      //   "name": "LD_LIBRARY_PATH",
+      //   "value": "/home/ian/PhD/Unity/GaussianSplattingVRViewerUnity/GaussianSplattingVRViewer/Assets/GaussianSplattingPlugin/Plugins/"
+      // },
+      // ],
+
+    },
+    {
+      "name": "(gdb) Attach",
+      "type": "cppdbg",
+      "request": "attach",
+      "program": "/home/ian/Unity/Hub/Editor/2022.3.9f1/Editor/Unity",
+      "additionalSOLibSearchPath": "/home/ian/PhD/Unity/GaussianSplattingVRViewerUnity/GaussianSplattingVRViewer/Assets/GaussianSplattingPlugin/Plugins/",
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Ignore SIGPWR signal",
+          "text": "handle SIGPWR nostop noprint pass",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Ignore SIGXCPU signal",
+          "text": "handle SIGXCPU nostop noprint pass",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Ignore SIG36 signal",
+          "text": "handle SIG36 nostop noprint pass",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Ignore SIG37 signal",
+          "text": "handle SIG37 nostop noprint pass",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "cwd": "/home/ian/PhD/Unity/GaussianSplattingVRViewerUnity",
+      "program": "/home/ian/PhD/Unity/GaussianSplattingVRViewerUnity/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
