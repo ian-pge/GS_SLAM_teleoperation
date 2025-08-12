@@ -38,6 +38,7 @@ services:
       - /tmp/.X11-unix:/tmp/.X11-unix:rw
       - /run/user/1000/wayland-0:/tmp/wayland-1:rw
       - /etc/machine-id:/etc/machine-id:ro
+      - ${HOME}/GS_SLAM_teleoperation/cartgs_gsslam_backend:/workspace/cartgs_gsslam_backend
 
     working_dir: /workspace
 
@@ -85,7 +86,7 @@ services:
       - /tmp/.X11-unix:/tmp/.X11-unix:rw
       - /run/user/1000/wayland-0:/tmp/wayland-1:rw
       - /etc/machine-id:/etc/machine-id:ro
-      - ${HOME}/.local/share/unity3d/Unity/Unity_lic.ulf:/workspace/Unity_lic.ulf
+      - ${HOME}/GS_SLAM_teleoperation/unity_interactive_viewer:/workspace/unity_interactive_viewer
 
     working_dir: /workspace
 
