@@ -1,0 +1,98 @@
+services:
+  cartgs_backend:
+    build:
+      context: ./gsslam_backend/.devcontainer
+      dockerfile: Dockerfile
+      args:
+        USERNAME: zed
+        USER_UID: 1000
+        USER_GID: 1000
+    container_name: gsslam_backend
+    hostname: gsslam-backend
+    user: "1000:1000"
+
+    # GPU and device access
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: all
+    #           capabilities: [gpu]
+
+    devices:
+      - /dev:/dev
+      - "nvidia.com/gpu=all"
+
+    privileged: true
+
+    # Network configuration
+    network_mode: host
+
+    # Environment variables
+    environment:
+      - DISPLAY=${DISPLAY}
+      - WAYLAND_DISPLAY=${WAYLAND_DISPLAY}
+
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - /run/user/1000/wayland-0:/tmp/wayland-1:rw
+      - /etc/machine-id:/etc/machine-id:ro
+      - ${HOME}/PhD/gs_projects/GS_SLAM_teleoperation/gsslam_backend:/workspace/gsslam_backend
+
+    working_dir: /workspace
+
+    # Runtime configuration
+    restart: unless-stopped
+
+    stdin_open: true
+    tty: true
+
+  unity_viewer:
+    build:
+      context: ./interactive_viewer/.devcontainer
+      dockerfile: Dockerfile
+      args:
+        USERNAME: zed
+        USER_UID: 1000
+        USER_GID: 1000
+    container_name: interactive_viewer
+    hostname: interactive-viewer
+    user: "1000:1000"
+
+    # GPU and device access
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: all
+    #           capabilities: [gpu]
+
+    devices:
+      - /dev:/dev
+      - "nvidia.com/gpu=all"
+
+    privileged: true
+
+    # Network configuration
+    network_mode: host
+
+    # Environment variables
+    environment:
+      - DISPLAY=${DISPLAY}
+      - WAYLAND_DISPLAY=${WAYLAND_DISPLAY}
+
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - /run/user/1000/wayland-0:/tmp/wayland-1:rw
+      - /etc/machine-id:/etc/machine-id:ro
+      - ${HOME}/PhD/gs_projects/GS_SLAM_teleoperation/interactive_viewer:/workspace/interactive_viewer
+
+    working_dir: /workspace
+
+    # Runtime configuration
+    restart: unless-stopped
+
+    stdin_open: true
+    tty: true

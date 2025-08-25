@@ -1,0 +1,3 @@
+[submodule "UnityPlugin/dependencies/diff-gaussian-rasterization"]
+	path = UnityPlugin/dependencies/diff-gaussian-rasterization
+	url = ../diff-gaussian-rasterization.git

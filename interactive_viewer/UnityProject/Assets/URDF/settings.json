@@ -1,0 +1,7 @@
+{
+  // other settings
+  "urdf-visualizer.packages": {
+      "robot": "${workspaceFolder}/link_models"
+  }
+  // other settings
+}

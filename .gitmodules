@@ -1,0 +1,20 @@
+[submodule "gsslam_backend/third_party/opencv"]
+	path = gsslam_backend/third_party/opencv
+	url = https://github.com/opencv/opencv.git
+[submodule "third_party/opencv_contrib"]
+	path = third_party/opencv_contrib
+	url = https://github.com/opencv/opencv_contrib.git
+[submodule "gsslam_backend/third_party/opencv_contrib"]
+	path = gsslam_backend/third_party/opencv_contrib
+	url = https://github.com/opencv/opencv_contrib.git
+[submodule "gsslam_backend/ros2_ws/src/ROS-TCP-Endpoint"]
+	path = gsslam_backend/ros2_ws/src/ROS-TCP-Endpoint
+	url = https://github.com/Unity-Technologies/ROS-TCP-Endpoint.git
+	branch = main-ros2
+[submodule "gsslam_backend/ros2_ws/src/vision_opencv"]
+	path = gsslam_backend/ros2_ws/src/vision_opencv
+	url = https://github.com/ros-perception/vision_opencv.git
+	branch = humble
+[submodule "gsslam_backend/ros2_ws/src/zed-ros2-wrapper"]
+	path = gsslam_backend/ros2_ws/src/zed-ros2-wrapper
+	url = https://github.com/stereolabs/zed-ros2-wrapper.git
