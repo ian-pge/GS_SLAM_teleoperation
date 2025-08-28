@@ -12,17 +12,17 @@ services:
     user: "1000:1000"
 
     # GPU and device access
-    # deploy:
-    #   resources:
-    #     reservations:
-    #       devices:
-    #         - driver: nvidia
-    #           count: all
-    #           capabilities: [gpu]
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
 
     devices:
       - /dev:/dev
-      - "nvidia.com/gpu=all"
+      # - "nvidia.com/gpu=all"
 
     privileged: true
 
@@ -61,17 +61,17 @@ services:
     user: "1000:1000"
 
     # GPU and device access
-    # deploy:
-    #   resources:
-    #     reservations:
-    #       devices:
-    #         - driver: nvidia
-    #           count: all
-    #           capabilities: [gpu]
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
 
     devices:
       - /dev:/dev
-      - "nvidia.com/gpu=all"
+      # - "nvidia.com/gpu=all"
 
     privileged: true
 

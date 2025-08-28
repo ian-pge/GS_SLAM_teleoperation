@@ -16,7 +16,7 @@ This project efficiently combines a Gaussian Splatting SLAM algorithm (CaRtGS), 
 
 ### Docker
 
-Due to the complexity and numerous dependencies of both systems, this project uses two Docker containers, one for each component, referred to as gsslam_backend and interactive_viewer. Use the provided Dockerfiles and build scripts to build the project in another environment.
+Due to the complexity and numerous dependencies of both systems, this project uses two Docker containers, one for each component, referred to as gsslam_backend and interactive_viewer. Use the provided Dockerfiles and build scripts to build the project in an other environment.
 
 ### Installation
 1. Clone the repository with all submodules:
