@@ -1,0 +1,72 @@
+[0.367s] Invoking command in '/workspace/gsslam_backend/ros2_ws/src/ROS-TCP-Endpoint': PYTHONPATH=/workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build install --record /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data
+[0.466s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.466s]   warnings.warn(
+[0.471s] running egg_info
+[0.471s] creating ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info
+[0.471s] writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO
+[0.471s] writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt
+[0.471s] writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt
+[0.472s] writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt
+[0.472s] writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt
+[0.472s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[0.473s] reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[0.473s] adding license file 'LICENSE'
+[0.474s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[0.474s] running build
+[0.474s] running build_py
+[0.474s] creating /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build
+[0.474s] creating /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build/lib
+[0.474s] creating /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.474s] copying ros_tcp_endpoint/__init__.py -> /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.474s] copying ros_tcp_endpoint/client.py -> /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.474s] copying ros_tcp_endpoint/communication.py -> /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.474s] copying ros_tcp_endpoint/default_server_endpoint.py -> /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.474s] copying ros_tcp_endpoint/exceptions.py -> /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.474s] copying ros_tcp_endpoint/publisher.py -> /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.474s] copying ros_tcp_endpoint/server.py -> /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.474s] copying ros_tcp_endpoint/service.py -> /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.474s] copying ros_tcp_endpoint/subscriber.py -> /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.474s] copying ros_tcp_endpoint/tcp_sender.py -> /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.475s] copying ros_tcp_endpoint/thread_pauser.py -> /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.475s] copying ros_tcp_endpoint/unity_service.py -> /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.475s] running install
+[0.475s] running install_lib
+[0.475s] creating /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[0.475s] copying /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/__init__.py -> /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[0.475s] copying /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/client.py -> /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[0.475s] copying /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/communication.py -> /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[0.476s] copying /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/default_server_endpoint.py -> /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[0.476s] copying /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/exceptions.py -> /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[0.476s] copying /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/publisher.py -> /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[0.476s] copying /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/server.py -> /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[0.476s] copying /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/service.py -> /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[0.476s] copying /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/subscriber.py -> /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[0.476s] copying /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/tcp_sender.py -> /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[0.476s] copying /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/thread_pauser.py -> /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[0.476s] copying /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/unity_service.py -> /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[0.476s] byte-compiling /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/__init__.py to __init__.cpython-310.pyc
+[0.476s] byte-compiling /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/client.py to client.cpython-310.pyc
+[0.477s] byte-compiling /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/communication.py to communication.cpython-310.pyc
+[0.477s] byte-compiling /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/default_server_endpoint.py to default_server_endpoint.cpython-310.pyc
+[0.477s] byte-compiling /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/exceptions.py to exceptions.cpython-310.pyc
+[0.477s] byte-compiling /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/publisher.py to publisher.cpython-310.pyc
+[0.477s] byte-compiling /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/server.py to server.cpython-310.pyc
+[0.479s] byte-compiling /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/service.py to service.cpython-310.pyc
+[0.479s] byte-compiling /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/subscriber.py to subscriber.cpython-310.pyc
+[0.479s] byte-compiling /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/tcp_sender.py to tcp_sender.cpython-310.pyc
+[0.480s] byte-compiling /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/thread_pauser.py to thread_pauser.cpython-310.pyc
+[0.480s] byte-compiling /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/unity_service.py to unity_service.cpython-310.pyc
+[0.480s] running install_data
+[0.480s] creating /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/share/ament_index
+[0.480s] creating /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/share/ament_index/resource_index
+[0.480s] creating /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+[0.480s] copying resource/ros_tcp_endpoint -> /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+[0.481s] copying package.xml -> /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint
+[0.481s] creating /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+[0.481s] copying launch/endpoint.py -> /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+[0.481s] running install_egg_info
+[0.482s] Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info
+[0.482s] running install_scripts
+[0.495s] Installing default_server_endpoint script to /workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[0.495s] writing list of installed files to '/workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/install.log'
+[0.509s] Invoked command in '/workspace/gsslam_backend/ros2_ws/src/ROS-TCP-Endpoint' returned '0': PYTHONPATH=/workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/build install --record /workspace/gsslam_backend/ros2_ws/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data

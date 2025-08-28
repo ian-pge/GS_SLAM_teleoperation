@@ -1,0 +1,109 @@
+[0.010s] Invoking command in '/workspace/gsslam_backend/ros2_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/gsslam_backend/ros2_ws/src/vision_opencv/image_geometry -DCARTGS_ROOT_DIR=/workspace/gsslam_backend -DORB_SLAM3_ROOT_DIR=/workspace/gsslam_backend/third_party/ORB-SLAM3 -DOpenCV_DIR=/workspace/gsslam_backend/third_party/install/opencv/lib/cmake/opencv4 -DTorch_DIR=/usr/local/libtorch/share/cmake/Torch -DCMAKE_INSTALL_RPATH=/workspace/gsslam_backend/cartgs_ros_rolling/third_party/install/opencv/lib -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=TRUE -DCMAKE_INSTALL_PREFIX=/workspace/gsslam_backend/ros2_ws/install/image_geometry
+[0.056s] -- The C compiler identification is GNU 11.4.0
+[0.094s] -- The CXX compiler identification is GNU 11.4.0
+[0.099s] -- Detecting C compiler ABI info
+[0.153s] -- Detecting C compiler ABI info - done
+[0.162s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.162s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.165s] -- Detecting CXX compiler ABI info
+[0.227s] -- Detecting CXX compiler ABI info - done
+[0.232s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.232s] -- Detecting CXX compile features
+[0.233s] -- Detecting CXX compile features - done
+[0.234s] -- Found ament_cmake_python: 1.3.12 (/opt/ros/humble/share/ament_cmake_python/cmake)
+[0.235s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.336s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.456s] -- Looking for pthread.h
+[0.518s] -- Looking for pthread.h - found
+[0.518s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.578s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.579s] -- Found Threads: TRUE  
+[0.592s] -- Found CUDA: /usr/local/cuda (found suitable exact version "12.1") 
+[0.603s] -- Found OpenCV: /workspace/gsslam_backend/third_party/install/opencv (found version "4.10.0") found components: calib3d core highgui imgproc 
+[0.603s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.648s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.652s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.657s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.665s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.695s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.799s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.844s] -- Configuring done
+[0.853s] -- Generating done
+[0.854s] [33mCMake Warning:
+[0.854s]   Manually-specified variables were not used by the project:
+[0.854s] 
+[0.854s]     CARTGS_ROOT_DIR
+[0.854s]     ORB_SLAM3_ROOT_DIR
+[0.854s]     Torch_DIR
+[0.854s] 
+[0.854s] [0m
+[0.857s] -- Build files have been written to: /workspace/gsslam_backend/ros2_ws/build/image_geometry
+[0.863s] Invoked command in '/workspace/gsslam_backend/ros2_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/gsslam_backend/ros2_ws/src/vision_opencv/image_geometry -DCARTGS_ROOT_DIR=/workspace/gsslam_backend -DORB_SLAM3_ROOT_DIR=/workspace/gsslam_backend/third_party/ORB-SLAM3 -DOpenCV_DIR=/workspace/gsslam_backend/third_party/install/opencv/lib/cmake/opencv4 -DTorch_DIR=/usr/local/libtorch/share/cmake/Torch -DCMAKE_INSTALL_RPATH=/workspace/gsslam_backend/cartgs_ros_rolling/third_party/install/opencv/lib -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=TRUE -DCMAKE_INSTALL_PREFIX=/workspace/gsslam_backend/ros2_ws/install/image_geometry
+[0.864s] Invoking command in '/workspace/gsslam_backend/ros2_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/gsslam_backend/ros2_ws/build/image_geometry -- -j28 -l28
+[0.907s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.907s] [ 22%] [32mBuilding CXX object CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.o[0m
+[0.909s] [ 44%] [32mBuilding CXX object CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.o[0m
+[0.909s] [ 44%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.913s] [ 44%] Built target ament_cmake_python_copy_image_geometry
+[1.049s] running egg_info
+[1.049s] creating image_geometry.egg-info
+[1.049s] writing image_geometry.egg-info/PKG-INFO
+[1.049s] writing dependency_links to image_geometry.egg-info/dependency_links.txt
+[1.050s] writing top-level names to image_geometry.egg-info/top_level.txt
+[1.050s] writing manifest file 'image_geometry.egg-info/SOURCES.txt'
+[1.050s] reading manifest file 'image_geometry.egg-info/SOURCES.txt'
+[1.051s] writing manifest file 'image_geometry.egg-info/SOURCES.txt'
+[1.072s] [ 44%] Built target ament_cmake_python_build_image_geometry_egg
+[1.309s] [ 55%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.338s] [ 55%] Built target gtest_main
+[1.630s] [ 66%] [32m[1mLinking CXX shared library libimage_geometry.so[0m
+[1.793s] [ 66%] Built target image_geometry
+[3.056s] [ 77%] [32m[1mLinking CXX static library libgtest.a[0m
+[3.117s] [ 77%] Built target gtest
+[3.135s] [ 88%] [32mBuilding CXX object CMakeFiles/image_geometry-utest.dir/test/utest.cpp.o[0m
+[4.377s] [100%] [32m[1mLinking CXX executable image_geometry-utest[0m
+[4.581s] [100%] Built target image_geometry-utest
+[4.595s] Invoked command in '/workspace/gsslam_backend/ros2_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/gsslam_backend/ros2_ws/build/image_geometry -- -j28 -l28
+[4.608s] Invoking command in '/workspace/gsslam_backend/ros2_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/gsslam_backend/ros2_ws/build/image_geometry
+[4.614s] -- Install configuration: ""
+[4.614s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/share/image_geometry/environment/pythonpath.sh
+[4.615s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/share/image_geometry/environment/pythonpath.dsv
+[4.615s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info
+[4.615s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/PKG-INFO
+[4.615s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/dependency_links.txt
+[4.615s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/top_level.txt
+[4.615s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/SOURCES.txt
+[4.615s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry
+[4.615s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry/__init__.py
+[4.616s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry/cameramodels.py
+[4.658s] Listing '/workspace/gsslam_backend/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry'...
+[4.658s] Compiling '/workspace/gsslam_backend/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry/__init__.py'...
+[4.659s] Compiling '/workspace/gsslam_backend/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry/cameramodels.py'...
+[4.665s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/include/image_geometry
+[4.665s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/include/image_geometry/image_geometry
+[4.665s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/include/image_geometry/image_geometry/pinhole_camera_model.h
+[4.665s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/include/image_geometry/image_geometry/stereo_camera_model.h
+[4.665s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/include/image_geometry/image_geometry/visibility_control.hpp
+[4.665s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/lib/libimage_geometry.so
+[4.666s] -- Set runtime path of "/workspace/gsslam_backend/ros2_ws/install/image_geometry/lib/libimage_geometry.so" to "/workspace/gsslam_backend/cartgs_ros_rolling/third_party/install/opencv/lib:/usr/local/cuda/lib64:/workspace/gsslam_backend/third_party/install/opencv/lib:/opt/ros/humble/lib"
+[4.666s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry
+[4.666s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry
+[4.667s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh
+[4.667s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.dsv
+[4.667s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/share/image_geometry/environment/path.sh
+[4.667s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/share/image_geometry/environment/path.dsv
+[4.667s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/share/image_geometry/local_setup.bash
+[4.667s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/share/image_geometry/local_setup.sh
+[4.667s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/share/image_geometry/local_setup.zsh
+[4.667s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/share/image_geometry/local_setup.dsv
+[4.668s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/share/image_geometry/package.dsv
+[4.668s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/share/ament_index/resource_index/packages/image_geometry
+[4.668s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport.cmake
+[4.668s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport-noconfig.cmake
+[4.668s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_targets-extras.cmake
+[4.668s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.668s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake
+[4.668s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake
+[4.669s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/image_geometry/share/image_geometry/package.xml
+[4.672s] Invoked command in '/workspace/gsslam_backend/ros2_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/gsslam_backend/ros2_ws/build/image_geometry

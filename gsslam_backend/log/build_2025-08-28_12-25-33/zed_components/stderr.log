@@ -1,0 +1,9 @@
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CARTGS_ROOT_DIR
+    ORB_SLAM3_ROOT_DIR
+    OpenCV_DIR
+    Torch_DIR
+
+[0m

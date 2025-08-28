@@ -1,0 +1,45 @@
+[0.466s] Invoking command in '/workspace/gsslam_backend/ros2_ws/src/vision_opencv/opencv_tests': AMENT_PREFIX_PATH=/workspace/gsslam_backend/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/gsslam_backend/ros2_ws/install/cv_bridge LD_LIBRARY_PATH=/workspace/gsslam_backend/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/gsslam_backend/ros2_ws/build/opencv_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/gsslam_backend/ros2_ws/install/opencv_tests/lib/python3.10/site-packages:/workspace/gsslam_backend/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/opencv_tests build --build-base /workspace/gsslam_backend/ros2_ws/build/opencv_tests/build install --record /workspace/gsslam_backend/ros2_ws/build/opencv_tests/install.log --single-version-externally-managed install_data
+[0.621s] running egg_info
+[0.622s] creating ../../../build/opencv_tests/opencv_tests.egg-info
+[0.622s] writing ../../../build/opencv_tests/opencv_tests.egg-info/PKG-INFO
+[0.622s] writing dependency_links to ../../../build/opencv_tests/opencv_tests.egg-info/dependency_links.txt
+[0.622s] writing entry points to ../../../build/opencv_tests/opencv_tests.egg-info/entry_points.txt
+[0.622s] writing requirements to ../../../build/opencv_tests/opencv_tests.egg-info/requires.txt
+[0.622s] writing top-level names to ../../../build/opencv_tests/opencv_tests.egg-info/top_level.txt
+[0.623s] writing manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[0.623s] reading manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[0.624s] writing manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[0.624s] running build
+[0.624s] running build_py
+[0.624s] creating /workspace/gsslam_backend/ros2_ws/build/opencv_tests/build
+[0.624s] creating /workspace/gsslam_backend/ros2_ws/build/opencv_tests/build/lib
+[0.624s] creating /workspace/gsslam_backend/ros2_ws/build/opencv_tests/build/lib/opencv_tests
+[0.625s] copying opencv_tests/__init__.py -> /workspace/gsslam_backend/ros2_ws/build/opencv_tests/build/lib/opencv_tests
+[0.625s] copying opencv_tests/broadcast.py -> /workspace/gsslam_backend/ros2_ws/build/opencv_tests/build/lib/opencv_tests
+[0.625s] copying opencv_tests/rosfacedetect.py -> /workspace/gsslam_backend/ros2_ws/build/opencv_tests/build/lib/opencv_tests
+[0.625s] copying opencv_tests/source.py -> /workspace/gsslam_backend/ros2_ws/build/opencv_tests/build/lib/opencv_tests
+[0.625s] running install
+[0.625s] running install_lib
+[0.625s] creating /workspace/gsslam_backend/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[0.625s] copying /workspace/gsslam_backend/ros2_ws/build/opencv_tests/build/lib/opencv_tests/__init__.py -> /workspace/gsslam_backend/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[0.625s] copying /workspace/gsslam_backend/ros2_ws/build/opencv_tests/build/lib/opencv_tests/broadcast.py -> /workspace/gsslam_backend/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[0.625s] copying /workspace/gsslam_backend/ros2_ws/build/opencv_tests/build/lib/opencv_tests/rosfacedetect.py -> /workspace/gsslam_backend/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[0.626s] copying /workspace/gsslam_backend/ros2_ws/build/opencv_tests/build/lib/opencv_tests/source.py -> /workspace/gsslam_backend/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[0.626s] byte-compiling /workspace/gsslam_backend/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests/__init__.py to __init__.cpython-310.pyc
+[0.626s] byte-compiling /workspace/gsslam_backend/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests/broadcast.py to broadcast.cpython-310.pyc
+[0.626s] byte-compiling /workspace/gsslam_backend/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests/rosfacedetect.py to rosfacedetect.cpython-310.pyc
+[0.627s] byte-compiling /workspace/gsslam_backend/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests/source.py to source.cpython-310.pyc
+[0.627s] running install_data
+[0.627s] creating /workspace/gsslam_backend/ros2_ws/install/opencv_tests/share/ament_index
+[0.627s] creating /workspace/gsslam_backend/ros2_ws/install/opencv_tests/share/ament_index/resource_index
+[0.628s] creating /workspace/gsslam_backend/ros2_ws/install/opencv_tests/share/ament_index/resource_index/packages
+[0.628s] copying resource/opencv_tests -> /workspace/gsslam_backend/ros2_ws/install/opencv_tests/share/ament_index/resource_index/packages
+[0.628s] copying package.xml -> /workspace/gsslam_backend/ros2_ws/install/opencv_tests/share/opencv_tests
+[0.628s] running install_egg_info
+[0.629s] Copying ../../../build/opencv_tests/opencv_tests.egg-info to /workspace/gsslam_backend/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests-3.2.1-py3.10.egg-info
+[0.629s] running install_scripts
+[0.645s] Installing broadcast script to /workspace/gsslam_backend/ros2_ws/install/opencv_tests/lib/opencv_tests
+[0.645s] Installing rosfacedetect script to /workspace/gsslam_backend/ros2_ws/install/opencv_tests/lib/opencv_tests
+[0.645s] Installing source script to /workspace/gsslam_backend/ros2_ws/install/opencv_tests/lib/opencv_tests
+[0.645s] writing list of installed files to '/workspace/gsslam_backend/ros2_ws/build/opencv_tests/install.log'
+[0.663s] Invoked command in '/workspace/gsslam_backend/ros2_ws/src/vision_opencv/opencv_tests' returned '0': AMENT_PREFIX_PATH=/workspace/gsslam_backend/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/gsslam_backend/ros2_ws/install/cv_bridge LD_LIBRARY_PATH=/workspace/gsslam_backend/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/gsslam_backend/ros2_ws/build/opencv_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/gsslam_backend/ros2_ws/install/opencv_tests/lib/python3.10/site-packages:/workspace/gsslam_backend/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/opencv_tests build --build-base /workspace/gsslam_backend/ros2_ws/build/opencv_tests/build install --record /workspace/gsslam_backend/ros2_ws/build/opencv_tests/install.log --single-version-externally-managed install_data

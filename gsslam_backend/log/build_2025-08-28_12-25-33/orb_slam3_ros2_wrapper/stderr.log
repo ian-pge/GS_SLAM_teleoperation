@@ -1,0 +1,587 @@
+[33mCMake Warning at /usr/local/libtorch/share/cmake/Caffe2/public/utils.cmake:385 (message):
+  In the future we will require one to explicitly pass TORCH_CUDA_ARCH_LIST
+  to cmake instead of implicitly setting it as an env variable.  This will
+  become a FATAL_ERROR in future version of pytorch.
+Call Stack (most recent call first):
+  /usr/local/libtorch/share/cmake/Caffe2/public/cuda.cmake:342 (torch_cuda_get_nvcc_gencode_flag)
+  /usr/local/libtorch/share/cmake/Caffe2/Caffe2Config.cmake:87 (include)
+  /usr/local/libtorch/share/cmake/Torch/TorchConfig.cmake:68 (find_package)
+  CMakeLists.txt:24 (find_package)
+
+[0m
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:58:54:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   58 |                      Matrix<double, Di, Dj>::Flags & [01;35m[KAlignedBit[m[K ? Aligned
+      |                                                      [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:62:54:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   62 |                      Matrix<double, Dj, Di>::Flags & [01;35m[KAlignedBit[m[K ? Aligned
+      |                                                      [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:36[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:65:52:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   65 |                      Matrix<double, D, D>::Flags & [01;35m[KAlignedBit[m[K ? Aligned
+      |                                                    [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:58:54:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   58 |                      Matrix<double, Di, Dj>::Flags & [01;35m[KAlignedBit[m[K ? Aligned
+      |                                                      [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:62:54:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   62 |                      Matrix<double, Dj, Di>::Flags & [01;35m[KAlignedBit[m[K ? Aligned
+      |                                                      [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:36[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:65:52:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   65 |                      Matrix<double, D, D>::Flags & [01;35m[KAlignedBit[m[K ? Aligned
+      |                                                    [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:36[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >[m[K’:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_sba.h:40:34:[m[K   required from here
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:65:50:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   65 |                      Matrix<double, D, D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned
+      |                                            [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:36[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >[m[K’:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_sba.h:40:34:[m[K   required from here
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:65:50:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   65 |                      Matrix<double, D, D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned
+      |                                            [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:36[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<6, g2o::SE3Quat>[m[K’:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:60:32:[m[K   required from here
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:65:50:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   65 |                      Matrix<double, D, D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned
+      |                                            [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:36[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<6, g2o::SE3Quat>[m[K’:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:60:32:[m[K   required from here
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:65:50:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   65 |                      Matrix<double, D, D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned
+      |                                            [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>[m[K’:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:82:14:[m[K   required from here
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:58:52:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   58 |                      Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned
+      |                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:62:52:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   62 |                      Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned
+      |                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>[m[K’:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:82:14:[m[K   required from here
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:58:52:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   58 |                      Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned
+      |                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:62:52:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   62 |                      Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned
+      |                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:117:14:[m[K   required from here
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:58:52:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   58 |                      Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned
+      |                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:62:52:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   62 |                      Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned
+      |                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:117:14:[m[K   required from here
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:58:52:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   58 |                      Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned
+      |                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:62:52:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   62 |                      Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned
+      |                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:152:14:[m[K   required from here
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:58:52:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   58 |                      Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned
+      |                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:62:52:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   62 |                      Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned
+      |                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:152:14:[m[K   required from here
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:58:52:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   58 |                      Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned
+      |                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:62:52:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   62 |                      Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned
+      |                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:36[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<7, g2o::Sim3>[m[K’:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:49:33:[m[K   required from here
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:65:50:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   65 |                      Matrix<double, D, D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned
+      |                                            [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:36[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<7, g2o::Sim3>[m[K’:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:49:33:[m[K   required from here
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:65:50:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   65 |                      Matrix<double, D, D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned
+      |                                            [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>[m[K’:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:93:14:[m[K   required from here
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:58:52:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   58 |                      Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned
+      |                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:62:52:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   62 |                      Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned
+      |                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>[m[K’:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:93:14:[m[K   required from here
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:58:52:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   58 |                      Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned
+      |                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:62:52:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   62 |                      Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned
+      |                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>[m[K’:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:127:14:[m[K   required from here
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:58:52:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   58 |                      Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned
+      |                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:62:52:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   62 |                      Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned
+      |                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>[m[K’:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:127:14:[m[K   required from here
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:58:52:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   58 |                      Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned
+      |                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:35[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Converter.h:30[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/CameraModels/GeometricCamera.h:38[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/Atlas.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/include/System.h:33[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:29[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+[01m[K/workspace/gsslam_backend/third_party/ORB-SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:62:52:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   62 |                      Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned
+      |                                              [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/include/ros_utils.hpp:12[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd-slam-node.hpp:26[m[K,
+                 from [01m[K/workspace/gsslam_backend/ros2_ws/src/orb_slam3_ros2_wrapper/src/rgbd.cpp:2[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K

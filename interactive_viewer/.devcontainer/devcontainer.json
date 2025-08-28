@@ -1,0 +1,29 @@
+{
+  "name": "unity_viewer",
+  "build": { "dockerfile": "Dockerfile" },
+  "runArgs": [
+    "--name",
+    "unity_viewer",
+    "--device",
+    "nvidia.com/gpu=all",
+    "--privileged",
+    "-v",
+    "/dev:/dev",
+    "-v",
+    "/tmp/.X11-unix:/tmp/.X11-unix",
+    "-v",
+    "/run/user/1000/wayland-0:/tmp/wayland-1",
+    "--net",
+    "host",
+    "-v",
+    "/etc/machine-id:/etc/machine-id:ro"
+  ],
+  "containerEnv": {
+    "DISPLAY": "${localEnv:DISPLAY}",
+    "WAYLAND_DISPLAY": "${localEnv:WAYLAND_DISPLAY}",
+    "XDG_RUNTIME_DIR": "/tmp"
+  },
+  "remoteUser": "zed",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+  "workspaceFolder": "/workspace"
+}

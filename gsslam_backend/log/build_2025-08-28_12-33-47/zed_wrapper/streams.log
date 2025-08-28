@@ -1,0 +1,42 @@
+[0.009s] Invoking command in '/workspace/gsslam_backend/ros2_ws/build/zed_wrapper': CMAKE_PREFIX_PATH=/workspace/gsslam_backend/ros2_ws/install/zed_components:/workspace/gsslam_backend/ros2_ws/install/zed_ros2:/workspace/gsslam_backend/ros2_ws/install/zed_wrapper:/workspace/gsslam_backend/ros2_ws/install/vision_opencv:/workspace/gsslam_backend/ros2_ws/install/orb_slam3_ros2_wrapper:/workspace/gsslam_backend/ros2_ws/install/image_geometry:/workspace/gsslam_backend/ros2_ws/install/cv_bridge:/workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint:/workspace/gsslam_backend/ros2_ws/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /workspace/gsslam_backend/ros2_ws/build/zed_wrapper -- -j28 -l28
+[0.048s] Invoked command in '/workspace/gsslam_backend/ros2_ws/build/zed_wrapper' returned '0': CMAKE_PREFIX_PATH=/workspace/gsslam_backend/ros2_ws/install/zed_components:/workspace/gsslam_backend/ros2_ws/install/zed_ros2:/workspace/gsslam_backend/ros2_ws/install/zed_wrapper:/workspace/gsslam_backend/ros2_ws/install/vision_opencv:/workspace/gsslam_backend/ros2_ws/install/orb_slam3_ros2_wrapper:/workspace/gsslam_backend/ros2_ws/install/image_geometry:/workspace/gsslam_backend/ros2_ws/install/cv_bridge:/workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint:/workspace/gsslam_backend/ros2_ws/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /workspace/gsslam_backend/ros2_ws/build/zed_wrapper -- -j28 -l28
+[0.049s] Invoking command in '/workspace/gsslam_backend/ros2_ws/build/zed_wrapper': CMAKE_PREFIX_PATH=/workspace/gsslam_backend/ros2_ws/install/zed_components:/workspace/gsslam_backend/ros2_ws/install/zed_ros2:/workspace/gsslam_backend/ros2_ws/install/zed_wrapper:/workspace/gsslam_backend/ros2_ws/install/vision_opencv:/workspace/gsslam_backend/ros2_ws/install/orb_slam3_ros2_wrapper:/workspace/gsslam_backend/ros2_ws/install/image_geometry:/workspace/gsslam_backend/ros2_ws/install/cv_bridge:/workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint:/workspace/gsslam_backend/ros2_ws/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /workspace/gsslam_backend/ros2_ws/build/zed_wrapper
+[0.058s] -- Install configuration: ""
+[0.058s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/config
+[0.058s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/common_mono.yaml
+[0.058s] -- Installing: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/common_stereo.yaml
+[0.058s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/custom_object_detection.yaml
+[0.058s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/ffmpeg.yaml
+[0.059s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/object_detection.yaml
+[0.059s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/virtual.yaml
+[0.059s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zed.yaml
+[0.059s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zed2.yaml
+[0.059s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zed2i.yaml
+[0.059s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zedm.yaml
+[0.059s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zedx.yaml
+[0.059s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zedxm.yaml
+[0.059s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zedxone4k.yaml
+[0.059s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zedxonegs.yaml
+[0.059s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/urdf
+[0.059s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/urdf/include
+[0.059s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/urdf/include/materials.urdf.xacro
+[0.059s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/urdf/zed_descr.urdf.xacro
+[0.059s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/urdf/zed_macro.urdf.xacro
+[0.059s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/launch
+[0.059s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/launch/zed_camera.launch.py
+[0.059s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/ament_index/resource_index/package_run_dependencies/zed_wrapper
+[0.059s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/ament_index/resource_index/parent_prefix_path/zed_wrapper
+[0.059s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.sh
+[0.059s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.dsv
+[0.060s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/environment/path.sh
+[0.060s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/environment/path.dsv
+[0.060s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/local_setup.bash
+[0.060s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/local_setup.sh
+[0.060s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/local_setup.zsh
+[0.060s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/local_setup.dsv
+[0.060s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/package.dsv
+[0.060s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/ament_index/resource_index/packages/zed_wrapper
+[0.060s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig.cmake
+[0.060s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig-version.cmake
+[0.060s] -- Up-to-date: /workspace/gsslam_backend/ros2_ws/install/zed_wrapper/share/zed_wrapper/package.xml
+[0.061s] Invoked command in '/workspace/gsslam_backend/ros2_ws/build/zed_wrapper' returned '0': CMAKE_PREFIX_PATH=/workspace/gsslam_backend/ros2_ws/install/zed_components:/workspace/gsslam_backend/ros2_ws/install/zed_ros2:/workspace/gsslam_backend/ros2_ws/install/zed_wrapper:/workspace/gsslam_backend/ros2_ws/install/vision_opencv:/workspace/gsslam_backend/ros2_ws/install/orb_slam3_ros2_wrapper:/workspace/gsslam_backend/ros2_ws/install/image_geometry:/workspace/gsslam_backend/ros2_ws/install/cv_bridge:/workspace/gsslam_backend/ros2_ws/install/ros_tcp_endpoint:/workspace/gsslam_backend/ros2_ws/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /workspace/gsslam_backend/ros2_ws/build/zed_wrapper

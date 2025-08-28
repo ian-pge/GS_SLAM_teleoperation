@@ -1,0 +1,36 @@
+-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CARTGS_ROOT_DIR
+    CMAKE_INSTALL_RPATH
+    CMAKE_INSTALL_RPATH_USE_LINK_PATH
+    ORB_SLAM3_ROOT_DIR
+    OpenCV_DIR
+    Torch_DIR
+
+[0m
+-- Build files have been written to: /workspace/gsslam_backend/ros2_ws/build/zed_ros2
+-- Install configuration: ""
+-- Installing: /workspace/gsslam_backend/ros2_ws/install/zed_ros2/share/ament_index/resource_index/package_run_dependencies/zed_ros2
+-- Installing: /workspace/gsslam_backend/ros2_ws/install/zed_ros2/share/ament_index/resource_index/parent_prefix_path/zed_ros2
+-- Installing: /workspace/gsslam_backend/ros2_ws/install/zed_ros2/share/zed_ros2/environment/ament_prefix_path.sh
+-- Installing: /workspace/gsslam_backend/ros2_ws/install/zed_ros2/share/zed_ros2/environment/ament_prefix_path.dsv
+-- Installing: /workspace/gsslam_backend/ros2_ws/install/zed_ros2/share/zed_ros2/environment/path.sh
+-- Installing: /workspace/gsslam_backend/ros2_ws/install/zed_ros2/share/zed_ros2/environment/path.dsv
+-- Installing: /workspace/gsslam_backend/ros2_ws/install/zed_ros2/share/zed_ros2/local_setup.bash
+-- Installing: /workspace/gsslam_backend/ros2_ws/install/zed_ros2/share/zed_ros2/local_setup.sh
+-- Installing: /workspace/gsslam_backend/ros2_ws/install/zed_ros2/share/zed_ros2/local_setup.zsh
+-- Installing: /workspace/gsslam_backend/ros2_ws/install/zed_ros2/share/zed_ros2/local_setup.dsv
+-- Installing: /workspace/gsslam_backend/ros2_ws/install/zed_ros2/share/zed_ros2/package.dsv
+-- Installing: /workspace/gsslam_backend/ros2_ws/install/zed_ros2/share/ament_index/resource_index/packages/zed_ros2
+-- Installing: /workspace/gsslam_backend/ros2_ws/install/zed_ros2/share/zed_ros2/cmake/zed_ros2Config.cmake
+-- Installing: /workspace/gsslam_backend/ros2_ws/install/zed_ros2/share/zed_ros2/cmake/zed_ros2Config-version.cmake
+-- Installing: /workspace/gsslam_backend/ros2_ws/install/zed_ros2/share/zed_ros2/package.xml
