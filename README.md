@@ -1,6 +1,6 @@
 # Real-time Photorealistic Mapping for Situational Awareness in Robot Teleoperation
 
-### [Video](https://www.youtube.com/watch?v=-Md49rKkV8I) | Paper coming soon
+### [Video](https://www.youtube.com/watch?v=-Md49rKkV8I) | [Paper](https://hal.science/hal-05241770)
 
 **Ian Page<sup>1</sup>, Pierre Susbielle<sup>1</sup>, Olivier Aycard<sup>1</sup> and Pierre-Brice Wieber<sup>2</sup>**
 GIPSA-lab <sup>1</sup>
@@ -93,6 +93,18 @@ This work incorporates many open-source codes. We extend our gratitude to the au
 
 ## Citation
 If you find this work useful in your research, consider citing it:
-```
-Coming soon
+```bibtex
+@inproceedings{page:hal-05241770,
+  TITLE = {{Real-time Photorealistic Mapping for Situational Awareness in Robot Teleoperation}},
+  AUTHOR = {Page, Ian and Susbielle, Pierre and Aycard, Olivier and Wieber, Pierre-Brice},
+  URL = {https://hal.science/hal-05241770},
+  BOOKTITLE = {{IROS 2025 - IEEE/RSJ International Conference on Intelligent Robots and Systems}},
+  ADDRESS = {Hangzhou, China},
+  YEAR = {2025},
+  MONTH = Oct,
+  KEYWORDS = {RGBD ; Robot ; Quadruped ; Drone ; Situational awareness ; Teleoperation ; Gaussian splatting ; Artificial intellgence ; Robotics ; SLAM},
+  PDF = {https://hal.science/hal-05241770v1/file/root.pdf},
+  HAL_ID = {hal-05241770},
+  HAL_VERSION = {v1},
+}
 ```
