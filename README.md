@@ -96,7 +96,7 @@ If you find this work useful in your research, consider citing it:
 ```bibtex
 @inproceedings{page:hal-05241770,
   TITLE = {{Real-time Photorealistic Mapping for Situational Awareness in Robot Teleoperation}},
-  AUTHOR = {Page, Ian and Susbielle, Pierre and Aycard, Olivier and Wieber, Pierre-Brice},
+  AUTHOR = {Page Ian, Susbielle Pierre, Aycard Olivier, Wieber Pierre-Brice},
   URL = {https://hal.science/hal-05241770},
   BOOKTITLE = {{IROS 2025 - IEEE/RSJ International Conference on Intelligent Robots and Systems}},
   ADDRESS = {Hangzhou, China},
