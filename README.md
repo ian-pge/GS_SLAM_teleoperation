@@ -102,7 +102,6 @@ If you find this work useful in your research, consider citing it:
   ADDRESS = {Hangzhou, China},
   YEAR = {2025},
   MONTH = Oct,
-  KEYWORDS = {RGBD ; Robot ; Quadruped ; Drone ; Situational awareness ; Teleoperation ; Gaussian splatting ; Artificial intellgence ; Robotics ; SLAM},
   PDF = {https://hal.science/hal-05241770v1/file/root.pdf},
   HAL_ID = {hal-05241770},
   HAL_VERSION = {v1},
